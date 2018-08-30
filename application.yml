@@ -1,15 +1,15 @@
 ﻿spring :
    profiles :
-     active :
-	   - dev
+    active :
+	  - dev
 ---
 spring :
    profiles : dev   ##开发环境
-     application :
-	    name : springcloud-config-edwin-dev
+    application :
+	  name : springcloud-config-edwin-dev
 ---
 spring :
    profiles : test   ##测试环境
      application :
-	    name : springcloud-config-edwin-test
+	   name : springcloud-config-edwin-test
 ####请注意 保存为UTF-8 格式		 
